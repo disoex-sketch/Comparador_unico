@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { foto1: 'foto1_antes.jpg', foto2: 'foto1_despues.jpg' },
     { foto1: 'foto2_antes.jpg', foto2: 'foto2_despues.jpg' },
     { foto1: 'foto3_antes.jpg', foto2: 'foto3_despues.jpg' },
-    { foto1: 'foto4_antes.jpg', foto2: 'foto4_despues.jpg' },
+    { foto1: 'foto4_antes.jpg', foto2: 'foto4_despues.jpg' }
   ];
 
   let indiceActual = 0;
