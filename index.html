@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <title>Comparador de Imágenes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="image-comparison" id="comparison">
+    <!-- La ruta de las imágenes se asignará sola mediante la URL -->
+    <img id="imgBase" alt="Foto Después" class="img-base">
+
+    <div class="img-overlay-wrapper" id="overlay">
+      <img id="imgOverlay" alt="Foto Antes" class="img-overlay">
+    </div>
+
+    <div class="slider-line" id="line">
+      <div class="slider-button">↔</div>
+    </div>
+
+    <input type="range" min="0" max="100" value="50" class="slider" id="slider">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
